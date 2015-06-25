@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <javaee:display-name>LoginExample</javaee:display-name>
+  <servlet>
+    <javaee:display-name>LoginServlet</javaee:display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>project.LoginServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <javaee:display-name>RegisterUser</javaee:display-name>
+    <servlet-name>RegisterUser</servlet-name>
+    <servlet-class>project.RegisterUser</servlet-class>
+  </servlet>
+  
+     <servlet>
+    <javaee:display-name>ConfirmOrder</javaee:display-name>
+    <servlet-name>ConfirmOrder</servlet-name>
+    <servlet-class>project.ConfirmOrder</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <javaee:display-name>OrderHistory</javaee:display-name>
+    <servlet-name>OrderHistory</servlet-name>
+    <servlet-class>project.OrderHistory</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <javaee:display-name>SearchCakes</javaee:display-name>
+    <servlet-name>SearchCakes</servlet-name>
+    <servlet-class>project.SearchCakes</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <javaee:display-name>ViewCart</javaee:display-name>
+    <servlet-name>ViewCart</servlet-name>
+    <servlet-class>project.ViewCart</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <javaee:display-name>ShoppingCart</javaee:display-name>
+    <servlet-name>ShoppingCart</servlet-name>
+    <servlet-class>project.ShoppingCart</servlet-class>
+  </servlet>
+  
+     <servlet>
+    <javaee:display-name>RemoveCart</javaee:display-name>
+    <servlet-name>RemoveCart</servlet-name>
+    <servlet-class>project.RemoveCart</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <javaee:display-name>SearchCakesbySeller</javaee:display-name>
+    <servlet-name>SearchCakesbySeller</servlet-name>
+    <servlet-class>project.SearchCakesbySeller</servlet-class>
+  </servlet>
+   
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>RegisterUser</servlet-name>
+    <url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>SearchCakes</servlet-name>
+    <url-pattern>/SearchCakes</url-pattern>
+  </servlet-mapping>
+  
+     <servlet-mapping>
+    <servlet-name>ConfirmOrder</servlet-name>
+    <url-pattern>/ConfirmOrder</url-pattern>
+  </servlet-mapping>
+  
+     <servlet-mapping>
+    <servlet-name>ViewCart</servlet-name>
+    <url-pattern>/ViewCart</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>ShoppingCart</servlet-name>
+    <url-pattern>/ShoppingCart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>RemoveCart</servlet-name>
+    <url-pattern>/RemoveCart</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>OrderHistory</servlet-name>
+    <url-pattern>/OrderHistory</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>SearchCakesbySeller</servlet-name>
+    <url-pattern>/SearchCakesbySeller</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
