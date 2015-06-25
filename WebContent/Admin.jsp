@@ -20,7 +20,7 @@
 	<style type="text/css">
 	</style>
 	<style>
-
+<!-- stylesheet for admin page starts here -->
 .navbar-custom {
 	background-color:#004c93;
     color:#ffffff;
@@ -188,3 +188,4 @@
    
   </body>
 </html>
+<!-- end of admin page -->
